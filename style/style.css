@@ -1,0 +1,965 @@
+body,
+p,
+button,
+ul,
+ol,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #5BB5D0;
+    background: url("../img/home/bj.png") #0E171F no-repeat;
+}
+
+.page-container {
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 174px;
+    width: 100%;
+    background: url("../img/home/top.png") no-repeat;
+    position: relative;
+}
+
+main {
+    height: auto;
+    display: flex;
+    padding: 37px 51px;
+    padding-bottom: 0;
+    position: relative;
+    width: auto;
+}
+
+.left {
+    width: 384px;
+    height: 779px;
+    /* margin-top: 10px; */
+    background: url(../img/home/left.png) no-repeat;
+}
+
+.right {
+    width: 454px;
+    height: 779px;
+    background: url(../img/home/right.png) no-repeat;
+}
+
+.middle {
+    width: 962px;
+    background: #0E171F;
+}
+
+.left,
+.middle,
+.right {
+    position: relative;
+}
+
+#graph,
+#thatYearDistributionChart,
+#familyChart,
+#migrationChinaChart {
+    width: 900px;
+    height: 780px;
+    margin: 0 auto;
+}
+
+.now-date {
+    font-size: 20px;
+    position: absolute;
+    top: 132px;
+    width: 350px;
+    left: 75px;
+}
+
+.now-date span {
+    margin-left: 30px;
+}
+
+.logo-title {
+    width: 480px;
+    height: auto;
+    font-size: 40px;
+    left: 60px;
+    top: 20px;
+    position: absolute;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(0deg, rgba(91, 181, 208, 1) 0%, rgba(148, 223, 246, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-nav {
+    position: absolute;
+    left: 694px;
+    display: flex;
+    top: 40px;
+    text-align: center;
+    /* vertical-align: middle; */
+
+}
+
+.top-nav .item {
+    width: 176px;
+    height: 46px;
+    margin-left: 24px;
+    line-height: 46px;
+    background: url("../img/index/menubg.png");
+    cursor: pointer;
+}
+
+.top-nav .item.active {
+    background: url("../img/index/menubg-active.png");
+}
+
+.top-nav .item:first-child {
+    margin-left: 0;
+}
+
+.left-title {
+    width: 182px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 8px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.number-item {
+    text-align: center;
+    margin-top: 39px;
+}
+
+.number-item .num-title {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+}
+
+.number-item .nums {
+
+    display: inline-block;
+    margin-top: 23px;
+}
+
+.number-item .nums .num {
+    width: 40px;
+    height: 50px;
+    background: rgba(33, 60, 71, 1);
+    border-radius: 4px;
+    float: left;
+    margin-left: 10px;
+    line-height: 40px;
+    font-family: DINAlternate-Bold;
+    font-size: 36px;
+    color: rgba(255, 219, 109, 1);
+}
+
+.number-item .nums .num:first-child {
+    margin-left: 0;
+}
+
+.layers_item_contianer {
+    display: flex;
+    justify-content: space-between;
+    width: 306px;
+    height: 362px;
+    flex-wrap: wrap;
+    /* margin-top: 49px; */
+    /* margin-left: 38px; */
+    margin: 49px 38px;
+}
+
+.layers_item {
+    width: 146px;
+    height: 83px;
+    background: rgba(25, 42, 50, 1);
+}
+
+.layers_item_title {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+    text-align: left;
+    /* padding: 14px; */
+    padding-left: 13px;
+    padding-top: 12px;
+}
+
+.layers_item_num {
+    font-size: 27px;
+    font-family: MicrosoftYaHei;
+    font-weight: bold;
+    color: rgba(95, 242, 223, 1);
+    padding-right: 12px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.layers_item_num small {
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+    margin-left: 5px;
+}
+
+.geo-part {
+    width: 132px;
+    height: 190px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.geo-title {
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(91, 181, 208, 1);
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.statistical-data-home {
+    /* padding: 37px 92px; */
+    width: 400px;
+    margin: 0 auto;
+}
+
+.statistical {
+    width: 90%;
+    padding: 5px 20px;
+    display: table;
+}
+
+.statistical-name,
+.statistical-value {
+    display: table-cell;
+}
+
+.statistical-name {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+    text-align: left;
+
+}
+
+.statistical-value {
+    font-size: 32px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(95, 242, 223, 1);
+    text-align: right;
+}
+
+.profile_left {
+    background: url("../img/profile/left.png") no-repeat;
+    width: 384px;
+    height: 774px;
+}
+
+.profile_left-family {
+    width: 384px;
+    height: 774px;
+}
+
+.tab-title {
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: #5BB5D0;
+    opacity: 0.6;
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab-title.active {
+    color: #5FF2DF;
+}
+
+.tab-title-container {
+    width: 300px;
+    margin: 0 auto;
+    /* margin-left: 10px; */
+    /* display: inline-block; */
+}
+
+.tab-title-container {
+    margin-top: 40px;
+}
+
+.tab-content-container {
+    margin-top: 20px;
+}
+
+.tab-content {
+    width: 300px;
+    height: auto;
+    display: none;
+    margin: 0 auto;
+}
+
+#fertilityChart,
+#genderRateChart,
+#ageingChart {
+    width: 300px;
+    height: 550px;
+}
+
+.markline-notice {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(95, 242, 223, 1);
+    width: 175px;
+    margin: 0 auto;
+}
+
+.foot-nav {
+    width: auto;
+    height: 54px;
+    background: #10252F;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 4px 4px 0 0;
+}
+
+.foot-nav:after {
+    content: "";
+    border-right: 54px solid transparent;
+    border-bottom: 54px solid #10252F;
+    position: absolute;
+    left: 100%;
+}
+
+.foot-nav:before {
+    content: "";
+    border-left: 54px solid transparent;
+    border-bottom: 54px solid #10252F;
+    position: absolute;
+    right: 100%;
+}
+
+.profile_footer {
+    width: 668px;
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+.profile_main {
+    width: 1808px;
+    height: 860px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-notice {
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    width: 200px;
+    position: absolute;
+    bottom: 270px;
+    right: -30px;
+}
+
+.chart-notice p {
+    margin: 5px 0;
+}
+
+.profileMenu-item {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: #5BB5D0;
+    opacity: 0.5;
+    display: inline-block;
+    line-height: 20px;
+    padding: 18px 25px;
+    cursor: pointer;
+}
+
+.profileMenu-item.active {
+    opacity: 1;
+    border-bottom: 2px solid #5BB5D0;
+}
+
+.content-middle {
+    width: 951px;
+    height: 860px;
+    position: relative;
+}
+
+.health-middle {
+    width: 1328px;
+    height: 860px;
+    position: relative;
+}
+
+.content-middle-rate {
+    width: 944px;
+    height: 860px;
+    position: relative;
+}
+
+.content-right-rate {
+    width: 472px;
+    height: 772px;
+    background: url("../img/profile/right.png") no-repeat;
+}
+
+.content-right {
+    width: 465px;
+    height: 860px;
+}
+
+.content-right-top {
+    width: 465px;
+    height: 220px;
+    background: url("../img/profile/right-top.png") no-repeat;
+}
+
+#ageStructureChart {
+    width: 400px;
+    height: 180px;
+    margin-left: -50px
+}
+
+.ageStructure {
+    display: flex;
+    justify-content: start;
+}
+
+ul.ageStructureRate {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 46px;
+}
+
+ul.ageStructureRate li {
+    padding: 0 5px;
+    color: #5FF2DF;
+    font-size: 22px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+}
+
+.content-right-bottom {
+    width: 465px;
+    height: 535px;
+    background: url(../img/profile/right-bottom.png) no-repeat -7px;
+    margin-top: 12px;
+    position: relative;
+}
+
+#pyramidChart {
+    width: 420px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: -20px;
+
+}
+
+.pyramidChart-ytip,
+.pyramidChart-xtip {
+    color: #5891A2;
+    font-size: 12px;
+}
+
+.pyramidChart-ytip {
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.pyramidChart-xtip {
+    position: absolute;
+    right: 10px;
+    bottom: 17px;
+}
+
+.chart_name {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    bottom: 100px;
+    left: 380px;
+}
+
+ul.timeline {
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    top: 12px;
+    height: 400px;
+    /* background:-webkit-linear-gradient(top,rgba(14,23,31,0) 0%,rgba(14,23,31,1) 50%,rgba(14,23,31,0) 100%);  */
+}
+
+ul.timeline::-webkit-scrollbar {
+    width: 10px;
+    background-color: #123841;
+    border-radius: 5px;
+}
+
+ul.timeline::-webkit-scrollbar-button:start,
+ul.timeline::-webkit-scrollbar-button:start {
+    display: none;
+}
+
+ul.timeline::-webkit-scrollbar-thumb {
+    background: #3DB6A4;
+    border-radius: 5px;
+}
+
+ul.timeline li {
+    font-size: 14px;
+    color: #9C9C9C;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul.timeline li.active {
+    color: #f1d164;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.data-screen {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.data-screen-title {
+    font-size: 20px;
+    font-family: MicrosoftYaHei-Bold;
+    font-weight: bold;
+    color: rgba(91, 181, 208, 1);
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.data-screen-value {
+    font-size: 32px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(95, 242, 223, 1);
+    display: table-cell;
+    text-align: right;
+    position: relative;
+    top: 4px;
+}
+
+.data-screen-content-cell {
+    display: table;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.data-screen-key {
+    display: table-cell;
+    text-align: left;
+}
+
+.data-screen-key-icon {
+    width: 22px;
+    height: 22px;
+    background: rgba(65, 158, 150, 1);
+    border-radius: 50%;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(95, 242, 223, 1);
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.left-family-top {
+    background: url("../img/family/left-top.png");
+    width: 377px;
+    height: 435px;
+}
+
+.left-family-bottom {
+    background: url(../img/family/left-bottom.png);
+    width: 377px;
+    height: 319px;
+    /* position: relative; */
+    margin-top: 20px;
+    /* left: -8px; */
+    margin-left: -8px;
+}
+
+.right-family-top {
+    background: url(../img/family/right-top.png);
+    width: 465px;
+    height: 281px;
+    margin-left: 7px;
+    margin-bottom: 20px;
+}
+
+.right-family-bottom {
+    background: url("../img/family/right-bottom.png");
+    width: 465px;
+    height: 471px;
+}
+
+#familyTotalAverage,
+#immigrationTotal {
+    font-size: 32px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(95, 242, 223, 1);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.left-family-top-title span {
+    font-size: 18px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#familyTotalChart {
+    width: 440px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#familyTypeChart {
+    height: 240px;
+    width: 420px;
+    margin-left: -70px;
+}
+
+.gender-rate {
+    display: flex;
+    /* text-shadow: 0 0 black; */
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.gender-rate-item {
+    width: 150px;
+    text-align: center;
+    font-size: 36px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+}
+
+#familyAgeChart {
+    width: 440px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.left-migration-top {
+    width: 377px;
+    height: 181px;
+    background: url("../img/migration/left-top.png");
+}
+
+.left-migration-bottom {
+    width: 377px;
+    height: 573px;
+    background: url("../img/migration/left-bottom.png");
+    margin-top: 20px;
+    margin-left: -7px;
+}
+
+.right-migration-top {
+    width: 465px;
+    height: 389px;
+    background: url("../img/health/left-top.png");
+}
+
+.health-migration-top {
+    width: 465px;
+    height: 364px;
+    background: url("../img/health/left-bottom.png");
+}
+
+.health-migration-bottom {
+    width: 465px;
+    height: 391px;
+    background: url("../img/migration/right-bottom.png");
+    margin-top: 20px;
+    margin-left: -7px;
+}
+
+.right-migration-bottom {
+    width: 465px;
+    height: 391px;
+    background: url("../img/migration/right-bottom.png");
+    margin-top: 20px;
+    margin-left: -7px;
+}
+
+.change_date_btn {
+    width: 82px;
+    height: 32px;
+    color: #3F909F;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 3px;
+}
+
+.top-btn-group {
+    width: 660px;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+}
+
+.change_date_btn.active,
+.change_date_btn:hover {
+    color: #FFDB6D;
+}
+
+#migrationAgeChart {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.progress-container {
+    width: 240px;
+    background: #2F464B;
+    height: 12px;
+    border-radius: 4px;
+
+}
+
+.progress {
+    width: 50px;
+    height: 12px;
+    background: linear-gradient(90deg, #02C4F7 0%, #02F3E0 100%);
+    border-radius: 4px;
+}
+
+.education-rate-item {
+    display: flex;
+    width: 385px;
+    justify-content: space-between;
+    /* height: 20px; */
+    align-items: baseline;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.education-rate-item .label {
+    width: 40px;
+    font-size: 18px;
+    text-align: left;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(95, 242, 223, 1);
+}
+
+.education-rate-item .title {
+    width: 85px;
+    font-size: 14px;
+    text-align: right;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+}
+
+.education-rate {
+    margin-top: 30px;
+}
+
+#healthResourceChart {
+    width: 1300px;
+    height: 800px;
+}
+
+#indicatorsChart {
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.left-item {
+    width: 220px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+}
+
+.right-item {
+    width: 120px;
+    font-size: 28px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+    color: rgba(95, 194, 243, 1);
+    text-align: right;
+}
+
+.indicators-desc .item {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 5px 0;
+}
+
+.select-area-show {
+    width: 70px;
+    margin: 0 auto;
+    /* margin-top: 40px; */
+    /* margin: 20px 0; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.select-area-show p {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(125, 210, 235, 1);
+}
+#childbearingChart{
+    width:200px;
+    height:200px;
+    margin-left: 80px;
+}
+.childbearingChart-desc-item p{
+    font-size:16px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(88,145,162,1);
+}
+.childbearingChart-desc-item span{
+    font-size:28px;
+    font-family:DINAlternate-Bold;
+    font-weight:bold;
+}
+.childbearingChart-desc-item small{
+    font-size:16px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(88,145,162,1);
+}
+.childbearingChart-container {
+    display: flex;
+    align-items: center;
+}
+.ageing_left_top{
+    width:377px;
+    height:275px;
+    background: url(../img/ageing/left-top.png);
+}
+.ageing_left_bottom{
+    width:377px;
+    height:478px;
+    background: url(../img/ageing/left-bottom.png);
+    margin-left: -7px;
+    margin-top: 20px;
+}
+.raising {
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(88, 145, 162, 1);
+    margin-top: 30px;
+}
+.raising-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+p.raising-desc {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+#diseaseTop5Chart{
+    height:360px;
+    width:360px;
+    margin: 0 auto;
+}
+#ageGenderChart{
+    height:400px;
+    width:420px;
+}
+.ageGenderChart-desc p{
+    font-size: 36px;
+    font-family: DINAlternate-Bold;
+    font-weight: bold;
+}
+.ageGenderChart-desc .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    margin-top:20px;
+}
+.ageGenderChart-desc {
+    /* position: absolute; */
+    /* top: 150px; */
+    /* left: 280px; */
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
+}
+.monitoring-middle{
+    width:1416px;
+    height:860px;
+    position: relative;
+}
+#monitoringChart{
+    width:1400px;
+    height:800px;
+}
+#monitoringTypeChart{
+    width:360px;
+    height:400px;
+    margin:  0 auto;
+}

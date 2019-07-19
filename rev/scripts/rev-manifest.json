@@ -1,0 +1,21 @@
+{
+  "ageing.js": "ageing-7c7721e4eb.js",
+  "config.js": "config-01da82dba2.js",
+  "distribution.js": "distribution-f43b0716d4.js",
+  "emmigration.js": "emmigration-f7e3a4559a.js",
+  "family.js": "family-d2c7c8d62a.js",
+  "health.js": "health-c3feba35fe.js",
+  "healthTotal.js": "healthTotal-4275041f39.js",
+  "home.js": "home-23906fe9df.js",
+  "immigration.js": "immigration-bcd26a6dbf.js",
+  "index.js": "index-69a7d9a993.js",
+  "migration.js": "migration-68f055eeb5.js",
+  "monitoring.js": "monitoring-02c81a43e2.js",
+  "mortality.js": "mortality-0eaf715963.js",
+  "natality.js": "natality-50b817b95e.js",
+  "natural.js": "natural-c520eec517.js",
+  "obstetric.js": "obstetric-ed1571e261.js",
+  "permanent.js": "permanent-238e233d3a.js",
+  "profile.js": "profile-a40cf3a680.js",
+  "registered.js": "registered-c18ce3832f.js"
+}
